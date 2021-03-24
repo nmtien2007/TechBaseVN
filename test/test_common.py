@@ -3,7 +3,7 @@ import json
 import traceback
 from TechBaseVN_Lib.constants import Method, Result
 
-TEST_URL = "http://127.0.0.1:8001"
+TEST_URL = "http://127.0.0.1:8000"
 
 API_ADMIN_CREATE_USER = TEST_URL + "/admin/create_user"
 API_ADMIN_CREATE_GROUP = TEST_URL + "/admin/create_group"

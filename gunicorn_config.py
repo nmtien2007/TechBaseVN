@@ -21,7 +21,7 @@ group = 'root'
 workers = multiprocessing.cpu_count() * 2 + 1
 errorlog = '-'
 loglevel = "info"
-bind = '0.0.0.0:8001'
+bind = '0.0.0.0:8000'
 
 
 def post_fork(server, worker):
